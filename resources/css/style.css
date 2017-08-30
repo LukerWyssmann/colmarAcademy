@@ -1,3 +1,6 @@
+
+
+
 /*SETUP AND TESTING*/
 .borderTest{
   border: 5px solid black;
@@ -7,20 +10,25 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Scheherazade', serif;
 }
-
-.mobileHeadCon, .mobileBannerCon, .mobileMain, .mobileMajorsCon, .mobileThesisCon, .mobileFooterCon{
-  display: none;
-}
-.grey{
+.titleFont{
+  font-family: 'Strait', sans-serif;
   color: grey;
   font-weight: bold;
 }
-.mobileGrey{
-  color: darkgrey;
+.mobileTitleFont{
+  font-family: 'Strait', sans-serif;
+  color: grey;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 26px;
 }
+.mobileHeadCon, .mobileBannerCon, .mobileMain, .mobileMajorsCon, .mobileThesisCon, .mobileFooterCon{
+  display: none;
+}
+
+
+
 
 /*HEAD CON*/
 .headerCon{
@@ -71,7 +79,6 @@
 /*BANNER CON*/
 .bannerCon{
   display: flex;
-  background-color: lightgrey;
 }
 .banner{
   display: flex;
@@ -155,7 +162,7 @@
   height: auto;
 }
 
-#articleTitle{
+.articleTitle{
   font-size: 42px;
   margin-top: 32px;
 }
@@ -307,7 +314,7 @@
 }
 
 /*THESIS CON*/
-#thesisTitle{
+.thesisTitle{
   text-align: center;
   font-weight: bold;
   margin-top: 32px;
@@ -331,9 +338,10 @@
   margin-top: 24px;
   margin-bottom: 32px;
 }
-#videoTitle{
+.videoTitle{
+  color: black;
   margin-bottom: 8px;
-  font-size:  24px;
+  font-size:  32px;
   font-weight: bold;
 }
 #videoInfo{
